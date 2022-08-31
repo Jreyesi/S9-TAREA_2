@@ -1,0 +1,63 @@
+body{
+    background-color: #212225;
+    color: rgb(200, 201, 210);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    font-weight:bold;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+h1{
+    color: #61cee9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    font-size: 40px;
+}
+label{
+    color: rgb(220, 234, 234);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 20px;
+    font-weight: lighter;
+}
+input{
+    background-image: linear-gradient(0.25turn,#306586, #549cc5);
+    font-size: 16px;
+    color: rgb(214, 224, 224);
+    padding: .2em 0.01em;
+    border-radius: 32px;
+    border: none ;
+    width: 25%;
+    text-align: center;
+}
+button{
+    background-image: linear-gradient(0.25turn,#306586, #549cc5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 10%;
+    text-align: center;
+    font-weight:bold;
+    margin: 20px auto;
+    line-height: 25px;
+    text-align: center;
+}
+button:hover{
+    transition: ease;
+    background-image: linear-gradient(to right top, #1b0537, #00316e, #005780, #00795f, #2b9516);
+
+}
+textarea{
+    background-image: linear-gradient(0.25turn,#306586, #549cc5);
+    font-weight:bold;
+    text-align: center;
+    line-height: 15px;
+    width: 35%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+div{
+    margin: 0px auto;
+    text-align: center;
+}

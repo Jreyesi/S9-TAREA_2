@@ -1,0 +1,35 @@
+body{
+    background-color: #212225;
+    color:white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  div{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+  h1{
+      color: #61cee9;
+      font-size: 35px;
+  }
+  .grupo{
+      display: block;
+      width: 350px;
+      height: 50px;
+      margin-bottom:10px;
+      line-height: 50px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: bold;
+      border-radius: 10px;
+      color:white;
+      background-image: linear-gradient(0.25turn,#306586, #549cc5);
+      transition: .5s ease-in-out;
+  }
+  .grupo:hover{
+      height: 60px;
+      background-image: linear-gradient(to right top, #1b0537, #00316e, #005780, #00795f, #2b9516);
+  }
